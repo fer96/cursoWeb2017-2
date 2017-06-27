@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Grid</title>
+	<meta name="viewport" content="width=600">
+	<!--La meta de name="viewport", sirve para
+		dispositivos mobiles, con content="width"
+		se maenja el tamaño de la pantalla,
+		o con content="width=device-width", se ajusta automatico, se puede ajustar una escala inicial máxima o mínima con, 
+		minimun-scale o maximum-scale=no para
+		que no se pueda hacer zoom-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container-fluid">
+<!-- va hacer referencia a anchura variable-->
+	<h2>Ejemplo #1 Desktop o pantallas medianas</h2>
+	<div class="row">
+	<!--Row es para una fila-->
+		<div class="col-md-1">
+		<!--con class col es para una columna y solo va a ocupar una-->
+		.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">.col-md-4</div>
+		<div class="col-md-4">.col-md-4</div>
+		<div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">col-md-6</div>
+		<div class="col-md-6">col-md-6</div>
+	</div>
+	<h2>Ejemplo 2 mobiles y desktop</h2>
+	<div class="row">
+		<div class="col-xs-12 col-md-8">col-xs-12 col-md-8</div>
+		<div class="col-xs-12 col-md-4">col-xs-12 col-md-4</div>
+	</div>
+	<h2>Ejemplo 3 mobile and desktop</h2>
+	<div class="row">
+		<div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
+		<div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
+		<div class="col-xs-6 col-md-4">col-xs-6 col-md-4</div>
+	</div>
+	<h2>Ejemplo 4 mobile and desktop</h2>
+	<div class="row">
+		<div class="col-md-6 col-xs-6">
+			col-md-6 col-xs-6
+		</div>
+		<div class="col-md-6 col-xs-6">
+			col-md-6 col-xs-6
+		</div>
+	</div>
+	<h2>Ejemplo 5 Offsetting colums/Espacio entre columnas</h2>
+	<div class="row">
+		<div class="col-md-4">col-md-4</div>
+		<div class="col-md-4 col-md-offset-4">col-md-offset-4</div>
+	</div>
+	<h2>Ejemplo 6 offset de 3</h2>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-3">col-md-offset-3</div>
+		<div class="col-md-3 col-md-offset-3">col-md-offset-3</div>
+	</div>
+	<h2>Ejemplo 7 offset de 3 en md y 2 sin offset en xs</h2>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-3 col-xs-6">col-md-offset-3 y 2 sin offset sin xs</div>
+		<div class="col-md-3 col-md-offset-3 col-xs-6">col-md-offset-3 y 2 sin offset en xs</div>
+	</div>
+	<h2>Ejemplo 8 Push and Pull</h2>
+	<div class="row">
+		<div class="col-md-9 col-md-push-3">Push</div>
+		<div class="col-md-3 col-md-pull-9">Pull</div>
+		<!--Push & Pull cambia de posicion cuando se cambia el tamaño de la pantalla-->
+	</div>
+	<h2>Ejemplo 9</h2>
+	<div class="row">
+		<div class="col-md-12">
+			nivel:1 col-md-12
+			<div class="row">
+				<div class="col-xs-8 col-md-6">Nivel: 2 col-xs-8 col-md-6</div>
+				<div class="col-md-6 col-xs-4">Nivel: 2 col-xs-8, col-md-6</div>
+			</div>
+		</div>
+	</div>
+</body>
+<!--Los script van despues del body-->
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

@@ -1,0 +1,40 @@
+.divhijo{ /*modfificando modelo de cajas*/
+	background: #CCC;
+	/*width: 400px; /*Se´puede sustituir con paddings,bordes, o con posisionamientos*/
+	padding: 30px;
+	border: 10px solid #000;
+	margin: 0px 0px;
+
+	/*posicionando los elementos de forma correcta usando css*/
+
+
+	/*position: static; /*Posicionamiento por defecto es static*/ 
+	/*si se pone una regla x despues de la otra regla x, 
+	estas se sobre escriben, por ser hojas de estilo en cascada*/ 
+	/*position: absolute; /*posicion respecto a la esquina sup izq,(0,0)*/
+	/*top: 30%;
+	bottom: 30%;
+	left: 30%;
+	right: 30%;
+	/*posicion fixed o fija deja a los elementos fijos aun desplazando el cursor*/
+	/*position: fixed;*/
+	/*posicion relativa se refiere a la posicion que tiene el elemento X
+	respecto de un elemento Y que lo contiene, x dentro de y*/
+	position: relative;
+
+	top: 20px;
+	right: 20px;
+}
+
+.midivpadre{
+	background: blue;
+	padding: 30px;
+	border: 10px solid #f0f;
+	margin: 0px 0px;
+	position: absolute; /*posicion respecto a la esquina sup izq,(0,0)*/
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 20px;
+}
+

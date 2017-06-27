@@ -1,0 +1,83 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 16%;
+	background: gray;
+	width: 60%;
+	height: 100%;
+}
+.div_izq{
+	background: gray;
+	padding: 20px;
+	border: 0px solid #ccc;
+	margin: 0px 0px;
+	position: absolute; /*posicion respecto a la esquina sup izq,(0,0)*/
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 60%;
+}
+.divDer{
+	background: #EBF1F1;
+	padding: 20px;
+	border: 0px solid #ccc;
+	margin: 0px 0px;
+	position: relative; /*posicion respecto a la esquina sup izq,(0,0)*/
+	top: 0px;
+	bottom: 0px;
+	left: 40%;
+	right: 0px;
+}
+.hn_1{
+	background: #F705B0;
+}
+.hn_2{
+	background: #7CA640;
+}
+.hn_3{
+	background: #487FDA;
+}
+.hn_4{
+	background: #FD2929;
+}
+.hn_5{
+	background: #FB7E03;
+}
+h1,h3,h5{
+	color: white;
+}
+.letraBlanca{
+	color: white;
+}
+.letraRoja{
+	color:#FD2929;
+}
+.letraNaranja{
+	color: #FB7E03;
+}
+.letraAzul{
+	color:#487FDA;
+}
+.letraVerde{
+	color:#7CA640;
+}
+.letraRosa{
+	color:#F705B0;
+}
+.imaPerfil{
+	width: 100px;
+	height: 120px;
+	margin: 0px 10px;
+}
+.imgIcon{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.divInterDer{
+	border: 5px solid #CECFCF;
+	margin: 10px;
+	padding: 10px;
+	text-align: justify-all;
+}

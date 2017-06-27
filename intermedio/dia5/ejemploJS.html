@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo JS</title>
+</head>
+<body>
+  <!--
+    <p id="uno" onclick="cambiar()">Hola dame un click</p>
+  -->
+    <button id="cambiaTexto">Cambia el primer div</button>
+    <div id="primerDiv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid error distinctio maiores aliquam nesciunt quae libero porro sequi fugit a, veritatis, illo ut. Vel harum praesentium consequuntur eum voluptatem ullam totam facilis, enim inventore soluta, consequatur animi fugit iste distinctio.</div>
+    
+    <button id="concatenar">Concateno texto al segundo div</button>
+    <div id="segundoDiv">El titular del curso es </div>
+    
+    <button id="creador">Creaa texto</button>
+    <div id="tercerDiv"></div>
+
+    <button id="sumar">sumar</button>
+    <div id="cuatroDiv"></div>
+</body>
+    <script>
+        //palabra reservada para inicrear funciones "function"
+        function cambiar(){
+            //este metodo es pera un identificador
+            //innerHTML ingresa al codigo html
+            document.getElementById("uno").innerHTML="Hiciste un click"
+        }
+        document.getElementById("cambiaTexto").onclick=function(){
+          console.log("Imprimir en consiola");
+          alert(document.getElementById("primerDiv").innerHTML);
+        }
+        //onclick es un trigger=un lanzador que existen en el doc html
+        //son funciones anonimas por que no tienen nombre y se ejecutan en ese momento
+        //son vacias, no devuelven un dato
+        document.getElementById("concatenar").onclick=function(){
+          document.getElementById("segundoDiv").innerHTML=document.getElementById("segundoDiv").innerHTML+"Ludo";
+        }
+        document.getElementById("creador").onclick=function(){
+          document.getElementById("tercerDiv").innerHTML="<h3>Hola, me creo javascript</h3>";
+        }
+        function suma(a,b){
+          return a+b;
+        }
+        function sumarDiv(a,b){
+          document.getElementById("cuatroDiv").innerText=a+b;
+        }
+        document.getElementById("sumar").onclick=function sumarDiv(4,5);
+        console.log(suma(5,4));
+    </script>
+</html>

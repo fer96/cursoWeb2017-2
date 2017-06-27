@@ -1,0 +1,70 @@
+div{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	float: left;/*acomoda las cajas en una hilera 
+	horizontal a la izquierda o a la derecha*/
+	font-size: 30px;
+}
+
+.cajapadre{
+	position: absolute;
+
+	top:250px;
+	left:600px;
+}
+
+.caja2{
+	/*position: static;/*posicion por defecto*/
+	/*position: absolute;/*mover a donde quieras apartir de la posicion inicial*/
+	/*position: fixed;/*se queda en la misma posicion pero cuando bajas la barra de
+	desplazamiento te sigue pero con la misma posicion*/
+	position: absolute;/*son relativas a su div anterior, esta toma como 
+	origen la poscion de la caja padre*/
+
+	top: 350px;
+	left: 600px;
+}
+
+.caja3{
+	position: absolute;
+	top:450px;
+	left:600px;
+}
+
+.caja4{
+	position: absolute;
+	top:550px;
+	left:600px;
+}
+
+.caja5{
+	position: relative;
+	top:270px;
+	left:0px; 
+}
+.caja6{
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}
+.caja7{
+	position: absolute;
+	top: 400px;
+	left: 800px;
+}
+.caja8{
+	position: absolute;
+	top: 250px;
+	left: 700px;
+}
+.caja9{
+	position: absolute;
+	top: 250px;
+	left: 800px;
+}
+.caja10{
+	position: absolute;
+	top: 250px;
+	left: 900px;
+}

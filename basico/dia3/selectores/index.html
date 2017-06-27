@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores Avanzados</title>
+	<style>
+		/*Seelctor por numero de hijo
+		etiqueta:nth-child(numero_de_hijo){
+			reglas de estilo
+			}
+		*/
+		span:nth-child(5){
+			background: red;
+		}
+		span:nth-child(2n){/*hijos pares*/
+			background: #CCC;
+		}
+		/*Selector que solo afecta únicamente al primer hijo
+		etiqueta_padre>etiqueta_primer_hijo{
+			Reglas de estilo
+		}*/
+		div>h2{
+			background: #996699;
+		}
+		/*Selectores adyacentes
+		al cualquer etiqueta2 que este despues de una etiqueta1
+		aplicas este estilo
+		etiqueta1+etiqueta2{
+			Reglas de estilo
+			}*/
+		div+p{
+			background: orange;
+		}
+		/*Selectores descendente
+			a cualquier etiqueta1 que contenga una etiqueta2 se le aplican
+			las reglas de estilo a la etiqueta2
+			etiqueta1_esp_etiqueta2{
+				reglas de estilo
+			}
+		*/
+	</style>
+</head>
+<body>
+	
+	<span>Primer span</span>
+	<span>Segundo span</span>
+	<span>Tercer span</span>
+	<span>Cuarto span</span>
+	<span>Quinto span</span>
+	<span>Sexto span</span>
+	<span>Septimo span</span>
+	<span>Octavo span</span>
+	<span>Noveno span</span>
+	
+	<div>
+		<h2>Soy un tanque</h2>
+		<img src="img/panzer.jpg" alt="">
+		<p>Peso total: 56 toneladas</p>
+		<p>Velocidad Maxima 40km/h</p>
+		<p>Armamento principal: ¿Cañones?</p>
+	</div>
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ullam incidunt esse harum officiis autem consequuntur temporibus veritatis sequi facilis nam dolores accusamus minus tenetur quibusdam expedita veniam adipisci optio, necessitatibus doloribus minima velit recusandae! Similique a voluptatibus non blanditiis!
+	</p>
+
+	<div>
+		<a href="img/panzer.jpg"><p>No tengo estilo :'(</p></a>
+	</div>
+
+	<div>
+		<h4>Soy un h4 dentro de un div</h4>
+		<p>Soy un parrafo</p>
+	</div>
+
+</body>
+</html>

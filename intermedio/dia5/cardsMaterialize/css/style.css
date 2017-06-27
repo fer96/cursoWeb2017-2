@@ -1,0 +1,14 @@
+ /*Estilos para que el footer este siempre abajo*/
+ body {
+ 	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+ main {
+ 	flex: 1 0 auto;
+ }
+ /*estilos para justificar el texto*/
+ p{
+ 	text-align: justify;
+ }

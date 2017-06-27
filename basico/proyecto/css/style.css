@@ -1,0 +1,187 @@
+body,html{
+  font-family: 'Crushed', cursive;
+  padding: 0px;
+  margin-top: 0px;
+}
+/*estilos navbar*/
+.nvbar{
+  font-family: 'Ruslan Display', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background: #222;
+  border: 1px solid #000;
+  height: 50px;
+  margin: 0px;
+  padding: 5px 30px;
+}
+.menu{
+  position: absolute;
+  top: 5px; 
+  right: 0px;
+  font-size: 20px;
+  width: 50%;
+}
+li{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+a:hover{ /*Con "hover" cuando se pasa el cursor por ensima cambia de color*/
+  text-decoration: none;
+  color: #6A6969;
+}
+/*estilos footer*/
+.futer{
+  font-family: 'Chathura', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  /*bottom: 0px;*/
+  /*top: 720px; /*720px*/
+  top: 110%;
+  bottom: 0%;
+  left: 0px;
+  right: 0px;
+  height: 110px;
+  background: #222;
+  border: 1px solid #000;
+  margin: 0px;
+}
+.pfuter{
+	margin-bottom: 0px;
+}
+/*estilos para el contenido*/
+.imgPrin{
+  border: 0px solid black;
+  position: absolute;
+  top: 9%; /*70px*/
+  left: 2%;
+  width: 35%;
+  height: 30%;
+  padding: 0px;
+  margin: 0px;
+}
+.infoPrin{
+  border: 0px solid gray;
+  position: absolute;
+  top: 9%;
+  left: 38%;
+  width: 60%;
+  height: 30%;
+  padding: 0px;
+  margin: 0px;
+}
+.imgS1{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  position: absolute;
+  top: 45%; /*300px*/
+  left: 3%;
+  width: 20%;
+  height: 30%;
+}
+.imgS2{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  position: absolute;
+  top: 45%;
+  left: 27%;
+  width: 20%;
+  height: 30%;
+}
+.imgS3{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  position: absolute;
+  top: 45%;
+  left: 52%;
+  width: 20%;
+  height: 30%;
+}
+.imgS4{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid black;
+  position: absolute;
+  top: 45%;
+  left: 77%;
+  width: 20%;
+  height: 30%;
+}
+.texts1{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid grey;
+  position: absolute;
+  top: 75%; /*499px;*/
+  left: 3%;
+  width: 20%;
+  height: 30%;
+}
+.texts2{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid grey;
+  position: absolute;
+  top: 75%; /*499px;*/
+  left: 27%;
+  width: 20%;
+  height: 30%;
+}
+.texts3{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid grey;
+  position: absolute;
+  top: 75%; /*499px;*/
+  left: 52%;
+  width: 20%;
+  height: 30%;
+}
+.texts4{
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid grey;
+  position: absolute;
+  top: 75%; /*499px;*/
+  left: 77%;
+  width: 20%;
+  height: 30%;
+}
+/*estilos texto*/
+.textoBlanco{
+  color: white;
+}
+.txtCenter{
+  text-align: center;
+}
+.txtJustify{
+  text-align: justify;
+}
+/*estilos para fonts*/
+.letraContenido{
+  font-family: 'Crushed', cursive;
+}
+h1{
+  font-family: 'Emblema One', cursive;
+}
+h2,h3,h4,h5,h6{
+  font-family: 'Ruslan Display', cursive;
+}
+.logo{
+  font-family: 'Bungee Shade', cursive;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+a{
+  padding: 0px;
+  margin: 0px;
+}

@@ -1,0 +1,111 @@
+/*estilos para fonts*/
+.letraContenido{
+  font-family: 'Crushed', cursive;
+}
+h1{
+  font-family: 'Emblema One', cursive;
+}
+h2,h3,h4,h5,h6{
+  font-family: 'Ruslan Display', cursive;
+}
+.logo{
+  font-family: 'Bungee Shade', cursive;
+}
+/*estilos footer*/
+.futer{
+  font-family: 'Chathura', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 110px;
+  background: #222;
+  border: 1px solid #000;
+}
+.pfuter{
+	margin-bottom: 0px;
+}
+/*estilos texto*/
+.textoBlanco{
+  color: white;
+}
+/*estilos navbar*/
+.navbar{
+	margin-bottom:0px;
+	border-radius: 0px;
+	padding: 0px;
+}
+/*estilos 96*/
+.ns{
+	position: relative;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.nueveSeis{
+	padding: 0px;
+	margin: 10px;
+	border: 0px;
+	position: static;
+	top: 40px;
+	right: 40px;
+	bottom: 40px;
+	left: 40px;
+	font-size: 25px;
+	text-align: center;
+}
+.img96{
+	width: 500px;
+	height: 500px;
+}
+/*Estilos para cuadros*/
+.contenedor{
+	margin: 20px;
+	padding: 0px;
+	border: 0px;
+	}
+	/*nav altura=50px, anchura toda*/
+.imgEle{
+	border: 5px solid #ccc;
+	margin: 3px;
+	padding: 0px;
+	width: 40%;
+	height: 40%;
+}
+.desEle{
+	border: 5px solid #ccc;
+	margin: 3px;	
+	padding: 0px;
+	width: 60%;
+	height: 40%;
+}
+.game{
+	border: 5px solid #ccc;
+	margin: 3px;
+	padding: 0px;
+
+}
+.game2{
+	border: 5px solid #ccc;
+	margin: 3px;
+	padding: 0px;
+
+}
+.game3{
+	border: 5px solid #ccc;
+	margin: 3px;
+	padding: 0px;
+
+}
+.game4{
+	border: 5px solid #ccc;
+	margin: 3px;
+	padding: 0px;
+
+}
+.gameInt{
+
+}

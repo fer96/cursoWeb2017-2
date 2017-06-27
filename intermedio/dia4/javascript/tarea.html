@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript</title>
+</head>
+<body>
+  <script type="text/JavaScript">
+    var per=prompt("Ingresa una pregunta: ")
+    //random genera un numero float aleatoreo entre 0 y 1
+    //floor redondea
+    var x = Math.floor((Math.random() * 4) + 1);
+    switch(x){
+    	case 1:
+    		document.write(per," si");
+    		break;
+    	case 2:
+    		document.write(per," no");
+    		break;
+    	case 3:
+    		document.write(per," probablemente");
+    		break;
+    	case 4:
+    		document.write(per," definitivamente");
+    		break;
+    	default:
+    		break;
+    }
+  </script>
+</body>
+</html>

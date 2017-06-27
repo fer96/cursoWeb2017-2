@@ -1,0 +1,46 @@
+ 
+ /*Estilos para el html*/
+html{
+	font-family: 'Oswald', sans-serif;
+}
+ /*Estilos para que el footer este siempre abajo*/
+ body {
+ 	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+ main {
+ 	flex: 1 0 auto;
+ }
+ /*estilos para justificar el texto*/
+ .pFooter{
+ 	text-align: center;
+ 	font-size: small;
+ 	font-family: 'Source Sans Pro', sans-serif;
+
+
+ }
+ /*estilos para el navbar*/
+ .logo{
+ 	width: 280px;
+ 	height: 40px;
+ 	margin-top: 10px;
+ }
+ .aFooter{
+ 	color: #546e7a;
+ }
+ .bocina{
+ 	width: 500px;
+ 	height: 500px;
+ }
+ .textAlling{
+ 	text-align: justify;
+ }
+ .boton{
+ 	border-color: black;
+ 	border: 2px solid;
+ }
+ span{
+ 	font-size: smaller;
+ }

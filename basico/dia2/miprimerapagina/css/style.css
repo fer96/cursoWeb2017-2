@@ -1,0 +1,81 @@
+body{
+	background: #D9DBD3; /*Codigo hexadecimal formato #RRGGBB*/
+	margin: 0px;
+}
+.titulo{
+	color: #fff;	/*otra forma de poner color en css*/
+	background-color: black;	/*color de fondo*/
+}
+ul{
+	list-style: none; /*quita los puntos de una lista*/
+}
+a{
+	text-decoration: none; /*quita el subrayado de los links*/
+	color: rgb(0,0,0); /*Otra forma de poner color en css*/ /*rgba(r,g,b,opacidad)*/
+}
+a:hover{ /*Con "hover" cuando se pasa el cursor por ensima cambia de color*/
+	color: #CCC;
+}
+.menu_navegacion{ 
+	/*si se crea una clase y se pone una etiqueta, las reglas de esa clase*/
+	/*afectan solo a la etiqueta ".menu_nave a{}" */ 
+	text-align: center; /*forma correcta de mover texto con css*/
+}
+li{
+	display: inline;
+}
+.consalto{
+	display: block;
+}
+.menu_navegacion a{
+	display: inline-block;
+	background: black;
+	color: white;
+	width: 100px;
+	height: 15px;
+	font-size: 15px;
+	padding: 10px; /*10 px para los cuatros lados*/
+	margin: 0px 20px 0px 0px; /*otra forma: definir lado por lado top,right,bot,left*/
+}
+li:hover a{ /*Afecta a las etiquetas "li" que contengan "a"*/
+	color: red;
+	background: #ccc;
+}
+li.activo a{ /*afecta a las "li" que sean 'activo' que tengan "a"*/
+	background: #CCC;
+}
+h1{
+	text-align: center;
+	padding: 30px; /*otra forma de modificar margnes ir padding por padding ej: pading-top ...*/
+	margin: 0px;
+}
+/*=============================================
+==============Clase dia 3 =====================
+===============================================*/
+.informacion_personal{
+	/*border: 1px solid #CCC;*/
+	width: 30%;
+	border-top: none; /*Otra forma de afectar borde por borde*/
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	border-left: none;
+}
+.footer{
+	background: #CCB;
+	padding: 20px;
+	margin: 0px;
+}
+/*img{
+	height: 50%;
+	width: 50%;
+}*/
+.centrar{
+	text-align: justify; /*justifica texto*/
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse; /*sirve para que no se pongan dobles bordes*/
+}
+th,td{
+	padding: 20px;
+}

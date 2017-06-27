@@ -1,0 +1,6 @@
+tema: videojuegos
+menu: microsoft(4 xbox), sony(4 play), nintendo(wi,swicth,ds), pc(steam,origin)
+poner informacion de la consola y 4 juegos de cada opcion
+
+total de páginas=14
+index,4micro,4paly,3nintendo,2pc

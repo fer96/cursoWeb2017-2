@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores por atributos</title>
+	<style>
+		/*Esta forma de poner estilos no es correcta*/
+		/*A cuaquier etiqueta que tenga ese atributo y que cumplan
+		con el valor del atributo (puede o no tener atributo) se
+		le aplican las reglas de estilo
+		etiqueta[atributo]{
+			Reglas de estilo
+		}*/
+		a[target="_blank"]{
+			background: gray;
+		}
+		/*Esto se utiliza principalmente para parrafos en idioma diferente*/
+		/* si es atributo+"|"+=+valor_del_atributo se entiende como
+			para todo atributo que empiece con el valor*/
+		p[lang|=en]{
+			background: yellow;
+		}
+	</style>
+</head>
+<body>
+
+	<p>Cualquier etiqueta que tenga el atributo target será de color gris</p>
+	<a href="www.facebook.com">Facebook</a>
+	<a href="www.twitter.com" target="_blank">Twitter</a>
+	<a href="www.google.com" target="_top">Google</a>
+	<a href="www.youtube.com" target="_blank">Youtube</a>
+	
+	<p lang="en">Hello!</p>
+	<p lang="en-us">Hi!</p>
+	<p lang="en-gb">Ello!</p>
+	<p lang="us">Hi!</p>
+	<p lang="no">Hey!</p>
+
+</body>
+</html>
